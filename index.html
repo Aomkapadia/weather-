@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>WEATHER</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="navbar">
+    <input type="text" placeholder="City Name" spellcheck="false" id="cityname">
+  <button onclick="checkweather(document.getElementById('cityname').value)">
+  SEARCH</button>
+  </div>
+
+<div class="main">
+  <div class="container">
+    <div class="image">
+      <img src="/weather.png" alt="loading" srcset="">
+    </div>
+    <div class="city" id="city">
+      <h3> </h3>
+    </div>
+    <div class="time" id="time">
+      <h3> </h3>
+    </div>
+    <div class="maincontent">
+      <div class="celcius" id="celcius">
+        <h1> </h1>
+      </div>
+      <div class="speed" id="speed">
+        <h2> </h2>
+      </div>
+      <div class="humidity" id="humidity">
+        <h2> </h2>
+      </div>
+    </div>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
