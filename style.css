@@ -144,6 +144,8 @@
         width:180px;
     }
     .container{
+        box-sizing:border-box;
+        border:2px-solid-black;
         width:100%;
         min-width:0px;
     }
